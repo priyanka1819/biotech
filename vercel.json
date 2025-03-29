@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "staunch-biotech-lightweight",
+  "builds": [
+    { "src": "**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
